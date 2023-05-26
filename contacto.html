@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title> contacto </title>
+        <link rel="stylesheet" href="styles_contacto.css"/>
+        <link rel="stylesheet" href="recet.css">
+    </head>
+    <body>
+        <!--Cabezera de la pagina-->
+        <header id="header">
+            <div id="logo">
+                <img src="anime.jpg"/> <!--logo dentro de h1 para destacar-->
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#"> Home </a></li>
+                    <li><a href="#"> Animes</a></li>
+                    <li><a href="#"> Contacto </a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <form>
+                <label for="nombreyapellido">Nombre y Apellido</label>
+                <input type="text" id="nombreyapellido" class="input" required>
+
+                <label for="email">email</label>
+                <input type="email" id="email" class="input" placeholder="email@dominio.com" required>
+
+                <label for="telefono">Telefono</label>
+                <input type="tel" id="telefono" class="input" placeholder="(xx) xxxx xxxx" required>
+
+                <label for="Mensaje"> Mensaje </label>
+                <textarea id="mensaje" cols="60" rows="10" class="input" required></textarea>
+
+                <div>
+                <p> ¿Como le gustaria que lo contactemos? </p>
+
+                <label for="radio_email"><input type="radio" name="contacto" value="email" id="radio_email"> Email </label>
+
+                <label for="radio_telefono"><input type="radio" name="contacto" value="telefono" id="radio_telefono"> Telefono </label>
+
+                <label for="radio_whatsaap"><input type="radio" name="contacto" value="whatsaap" id="radio_whatsaap" checked> Whatsaap </label>
+                </div>
+
+                <p>¿en que horario prefiere ser atendido?</p>
+                <select>
+                    <option >Mañana</option>
+                    <option >Tarde</option>
+                    <option >Noche</option>
+                </select>
+
+               <label> <input type="checkbox" class="checkbox" checked> ¿Le gustaria recibir novedades de la pagina?</label>
+                <input type="submit" value="Enviar" class="enviar">
+            </form>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Lunes</td>
+                        <td>08h-20h</td>
+                    </tr>
+                    <tr>
+                        <td>Miercoles</td>
+                        <td>08h-20h</td>
+                    </tr>
+                    <tr>
+                        <td>Viernes</td>
+                        <td>08h-20h</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+        <footer>
+            <img src="anime2.jpeg">
+            <p>&copy; Derechos por Cristian Nuñez</p>
+        </footer>
+        
+    </body>
+</html>

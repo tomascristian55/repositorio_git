@@ -1,0 +1,101 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#header{
+    min-width: 1024;
+    width: 100%;
+    height: 330px;
+    margin: 0px auto;
+    background-color: antiquewhite;
+}
+
+#header #logo{
+    width: 40%;
+    padding: 20px;
+    padding-left: 25px;
+    padding-right: 10px;
+    margin-left: 60px;
+    float: left;
+}
+
+#header #logo img{
+    width: 80%;
+    margin-left: 40px;
+    border-radius: 40px;
+}
+
+nav{
+    position: absolute;
+    top:130px;
+    right: 210px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-shadow:1px 1px 6px rgb(190, 174, 155);
+    background-color: rgb(221, 208, 192);
+}
+
+.banner{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 4%;
+}
+
+.banner:hover{
+    opacity: 0.5; /*opacidad de una imagen*/
+    /*sombra en el elemento
+      primer tercer parametro opacidad, cuarto parametro la expancion de esa sombra*/
+    box-shadow: 10px 10px 5px 10px rgb(196, 196, 136); 
+}
+
+footer{
+    text-align: center;
+    min-width: 1024;
+    width: 100%;
+    height: 300px;
+    margin: 0px auto;
+    background-color: antiquewhite;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+footer img{
+    width: 550px;
+    border-radius: 20%;
+}
+
+.titulo_principal{
+    text-align: center;
+    font-size: 2em; /*dos veces tamaño fuente*/
+    margin: 0px 0px 1em;
+}
+
+p{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+iframe{
+    margin-left: 15% ;
+    margin-bottom: 4%;
+}
+
+.video{
+    margin-left: 25% ;
+    margin-bottom: 4%;
+}
